@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(19, 18, 18);
+    color: white;
+width: 100vh;
+}
+.menu ul{
+list-style: none;
+}
+.menu ul>li{
+    display: inline;
+}
+.menu ul>li>a{
+    text-decoration: none;
+    font-size: large;
+    padding: 17px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.menu ul>li>a:hover{
+text-decoration: none;
+color:black;
+background-color: white;
+border-radius: 10px;
+font-size: x-large;
+}
+ h1,h2{
+    text-align: center;
+
+}
+.note >input{
+    position: relative;
+    margin-left: 30%;
+}
+.type{
+    font-size: 10px;
+    position: relative;
+    left: 30%;
+    width: 100vh;
+}
+h3{
+    display: inline;
+    padding: 16px;
+    
+}
+.bold{
+    left: 30%;
+    padding-left: 390px;
+}
+h3:hover{
+text-decoration: underline;
+}
+
+input{
+    box-sizing: border-box;
+    font-size: large;
+    height: 50;
+}
+.btn{
+    position: relative;
+    left: 650px;
+    font-size: large;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+.add{
+    position: relative;
+    left: 630px;
+    font-size: large;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.card{
+     border: white solid;
+    width:320px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    padding:16px 3px 16px 3px;
+    margin: 16px;
+}
+
+.container{
+    padding: 2px 16px;
+    font-size: large;
+}
+.box{
+    display: flex;
+
+    padding :16px;
+    
+}
+.active{
+    background-color: black;
+    color: white;
+}
+.boldtext{
+    font-weight: bold;
+}
+.under{
+    text-decoration: underline;
+}
+@media (width<=400px){
+    body{
+        color:black;
+        background-color: white;
+
+    }
+    .menu ul>li>a{
+        color: black;
+        position: relative;
+        align-items: center;
+        font-size: xx-large;
+        display: flex;
+        left: 300px;
+    }
+    .bold{
+        display: flex;
+        
+    }
+    #boldtext{
+        font-size: xx-large;
+        margin-right: 14px;
+    }
+    #under{
+        font-size: xx-large;
+    }
+    h1{
+        position: relative;
+        left: 160px;
+    }
+    .card{
+        border: solid black;
+
+    }
+}

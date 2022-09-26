@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script src="text.js"></script>
+    <script src="copy.js"></script>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+         <li><a href="#notes"><b>Add Note</b></a></li>
+        <li> <a href="#listnotes"><b>List of Notes</b></a></li>
+        </ul>
+    </nav>
+    <main class="note">
+         <h1>Enter Your Notes</h1>
+        <div class="bold">
+        <button id="boldtext">B</button>
+        <button id="under">U</button>
+        
+    </div>
+    <button  class="btn">
+        <span id="copy-btn"> Copy</span>
+    </button>
+    <br>
+       <div class="type">
+       <textarea id="notes"  style="height:300px; width:520px ; font-size:large"cols="50"></textarea>
+    </div>
+    <button id="addBtn" class="add">Add Note</button>
+    </main>
+    <div class="list">
+        <h1 id="listnotes">List of your notes</h1>
+ </div>
+ <br>
+ <section id="yourNote" class="box">
+ 
+ 
+</section>
+
+</body>
+</html>
